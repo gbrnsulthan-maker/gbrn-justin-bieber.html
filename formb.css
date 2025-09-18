@@ -1,0 +1,80 @@
+body {
+    background-color: #fdfdfd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    min-height: 100vh;
+    background: #fff;
+    animation: fadeInPage 1s ease-out both;
+}
+@keyframes fadeInPage {
+    from {
+        opacity: 0; transform: translateY(8px);
+    }
+    to {
+        opacity: 1; transform: translateY(0);
+    }
+}
+.Judul-Form {
+    display: inline-block;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: copperplate;
+    background-color: #970747;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFFFFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+}
+fieldset {
+    border: 2px solid #970747;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+legend {
+    font-weight: bold;
+    color: #970747;
+    font-size: 18px;
+    padding: 0 10px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    color: #970747;
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"],
+button {
+    background-color: #970747;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+input[type="submit"]:hover,
+button:hover {
+    background-color: #7a053a;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}

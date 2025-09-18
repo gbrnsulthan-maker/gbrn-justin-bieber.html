@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="formb.css">
+</head>
+<body>
+         <!--Judul-->
+            <h3 class="Judul-Form">FORM LOGIN</h3>
+    <form action="#">
+        <fieldset>
+            <legend>Akun</legend>
+            <table>
+        <!--Tanpa Tabel-->
+        <tr>
+            <td>Username :</td><td><input type="text" name="Username" required placeholder="Username" /><br /></td>
+            </tr>
+
+        <!--Dengan Tabel-->
+        <tr>
+        <td><label for="Password">Password :</label></td>
+        <td><input type="password" id="Password" name="Password" placeholder="minimal 9 karakter" /><br /></td>
+            </tr>
+
+        <!--Dengan Tabel 2-->
+        <tr>
+        <td><label for="Email">Konfirmasi Password :</label></td>
+        <td><input type="password" id="Email" name="Email" placeholder="minimal 9 karakter" /><br /></td>
+            </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Data Diri</legend>
+            <table>
+        <!--Data-->
+        <tr>
+        <td>Nama :</td>
+        <td><input type="text" name="Nama" placeholder="Nama Anda" /><br /></td>
+        </tr>
+        <tr>
+        <td>Jenis Kelamin : </td>
+        <td><input type="radio" name="Jenis Kelamin" value="Laki-laki" />Laki-laki
+        <br><input type="radio" name="Jenis Kelamin" value="Perempuan" />Perempuan<br /></td>
+        <tr>
+        <td>Informasi Yang Disukai :</td>
+        <td><input type="checkbox" name="Informasi Yang Disukai" value="Musik" />Musik
+        <br><input type="checkbox" name="Informasi Yang Disukai" value="Olahraga" />Olahraga
+        <br><input type="checkbox" name="Informasi Yang Disukai" value="Traveling" />Traveling<br /></td>
+        </tr>
+    </table>
+        </fieldset>
+        <fieldset>
+            <legend>Alamat</legend>
+            <table>
+        <!--Alamat-->
+        <tr>
+        <td>Alamat :</td>
+        <td><textarea name="Alamat" rows="5" cols="30" placeholder="Alamat Anda"></textarea><br /></td>
+        </tr>
+        <tr>
+        <td>Negara :</td>   
+        <td><select name="Negara">
+            <option value="Indonesia">Indonesia</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapura">Singapura</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Vietnam">Vietnam</option>
+        </select><br /></td>
+        </tr>
+        <tr>
+        <td>Tanggal Lahir :</td>
+        <td><input type="date" name="Tanggal Lahir" /><br /></td>
+        </tr>
+        <tr>
+        <td>Agama :</td>
+        <td><select name="Agama">  
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+        </select><br /></td>
+        </tr>
+        <tr>
+        <td>No. Telepon :</td>
+        <td><input type="tel" name="No. Telepon" placeholder="No. Telepon" /><br /></td>
+        </tr>
+    </table>
+        </fieldset>
+        <br />
+        <!--Versi 1 tombol pakai input-->
+        <input type="submit" value="Login" />
+
+        <!--Versi 2 tombol pakai button-->
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
